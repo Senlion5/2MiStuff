@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "2MiStuff",
+    "slug": "2MiStuff",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#d7c6e3"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.senlion5.twomistuff",
+      "buildNumber": "1.1.0"
+    },
+    "android": {
+      "package": "com.senlion5.twomistuff",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "Sell Your Stuff from Hand 2 Hand. Handmade, restorated and secondhand item categories. ",
+    "notification": {
+      "iosDisplayInForeground": true
+    }
+  }
+}
